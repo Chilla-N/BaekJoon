@@ -1,0 +1,6 @@
+# 문제 번호 : 2739
+
+N = int(input())
+
+for i in range(9):
+    print(f"{N} * {i+1} = {N*(i+1)}")
